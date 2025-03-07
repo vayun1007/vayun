@@ -131,11 +131,11 @@ const TensorContributions = () => {
           <h2 className="text-3xl font-bold mb-12 text-cyan-400">Impact</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
-              <p className="text-4xl font-bold text-white mb-2">200+</p>
+              <p className="text-4xl font-bold text-white mb-2">90+</p>
               <p className="text-gray-300">Active Members</p>
             </div>
             <div>
-              <p className="text-4xl font-bold text-white mb-2">15+</p>
+              <p className="text-4xl font-bold text-white mb-2">5+</p>
               <p className="text-gray-300">Events Organized</p>
             </div>
             <div>

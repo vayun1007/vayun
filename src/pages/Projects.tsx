@@ -13,25 +13,25 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Neural Network Visualizer",
-    description: "Interactive visualization tool for understanding neural network architectures and training processes.",
+    title: "OBJECT DETECTION SYSTEMS",
+    description: "Developed real-time object detection systems using the YOLOv8 algorithm,tailored for specific use cases such as dog and gun detection.",
     category: "AI",
     image: "https://images.unsplash.com/photo-1676299081847-5c7fe2c59049?auto=format&fit=crop&q=80&w=800",
-    technologies: ["Python", "TensorFlow", "React", "D3.js"]
+    technologies: ["Python", "TensorFlow"]
   },
   {
-    title: "Computer Vision Research",
-    description: "Advanced object detection system using state-of-the-art deep learning models.",
+    title: "AI-Powered Fitness Form and Rep tracker ",
+    description: "Developed system using OpenCV and machine learning models for real-time posture analysis Implemented automatic rep counting and form correction feedback to enhance workout efficiency",
     category: "ML",
     image: "https://images.unsplash.com/photo-1633412802994-5c058f151b66?auto=format&fit=crop&q=80&w=800",
-    technologies: ["PyTorch", "OpenCV", "CUDA"]
+    technologies: ["PyTorch", "OpenCV", "MediaPipe"]
   },
   {
-    title: "Full Stack AI Platform",
-    description: "Cloud-based platform for deploying and managing machine learning models.",
+    title: "AI-Powered Stock Price Prediction",
+    description: "Developed predictive models using ARIMA and LSTM to forecast stock prices with improved accuracy. Built an LSTM neural network for 30-day predictions, visualized with key highlights for better insights.",
     category: "Web",
     image: "https://images.unsplash.com/photo-1664575198308-3959904fa430?auto=format&fit=crop&q=80&w=800",
-    technologies: ["React", "Node.js", "Docker", "AWS"]
+    technologies: ["Python", "AI", "Data Analysis"]
   }
 ];
 
