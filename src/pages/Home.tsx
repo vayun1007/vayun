@@ -14,7 +14,7 @@ const Home = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 neon-text glitch-effect" data-text="VAYUN">
+            <h1 className="text-6xl md:text-8xl font-bold mb-6 neon-text glitch-effect" data-text="VAYUN V">
               VAYUN V
             </h1>
           </motion.div>
@@ -32,13 +32,13 @@ const Home = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="flex justify-center space-x-6"
           >
-            <a href="https://github.com/yourusername" className="hover-card p-3 rounded-full bg-gray-800">
+            <a href="https://github.com/vayun1007" className="hover-card p-3 rounded-full bg-gray-800">
               <Github className="w-6 h-6 text-cyan-400" />
             </a>
-            <a href="https://linkedin.com/in/yourusername" className="hover-card p-3 rounded-full bg-gray-800">
+            <a href="https://linkedin.com/in/vayunv7" className="hover-card p-3 rounded-full bg-gray-800">
               <Linkedin className="w-6 h-6 text-cyan-400" />
             </a>
-            <a href="mailto:your.email@example.com" className="hover-card p-3 rounded-full bg-gray-800">
+            <a href="mailto:vayunv7@gmail.com" className="hover-card p-3 rounded-full bg-gray-800">
               <Mail className="w-6 h-6 text-cyan-400" />
             </a>
           </motion.div>
