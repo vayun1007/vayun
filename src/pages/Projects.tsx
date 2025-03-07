@@ -13,11 +13,10 @@ type Project = {
 
 const projects: Project[] = [
   {
-    title: "Neural Network Visualizer",
-    description: "Interactive visualization tool for understanding neural network architectures and training processes.",
+    title: "Object Detection System",
+    description: "Developed real-time object detection systems using the YOLOv8 algorithm,tailored for specific use cases such as dog and gun detection",
     category: "AI",
-    image: "https://images.unsplash.com/photo-1676299081847-5c7fe2c59049?auto=format&fit=crop&q=80&w=800",
-    technologies: ["Python", "TensorFlow", "React", "D3.js"]
+    technologies: ["Python", "TensorFlow", "YoloV8"]
   },
   {
     title: "Computer Vision Research",
