@@ -15,7 +15,7 @@ const Home = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-6xl md:text-8xl font-bold mb-6 neon-text glitch-effect" data-text="VAYUN">
-              VAYUN
+              VAYUN V
             </h1>
           </motion.div>
           <motion.p
@@ -24,7 +24,7 @@ const Home = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-xl md:text-2xl text-cyan-400 mb-8"
           >
-            AI Engineer • Full Stack Developer • Tensor Club President
+            AI Engineer • Data Analyst • innovator
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -52,10 +52,7 @@ const Home = () => {
             <Terminal className="w-12 h-12 text-cyan-400 mx-auto mb-6" />
             <h2 className="text-4xl font-bold mb-8 neon-text">About Me</h2>
             <p className="text-lg text-gray-300 leading-relaxed mb-8">
-              I'm a passionate AI Engineer and Full Stack Developer with a deep interest in cutting-edge technology.
-              As the President of the Tensor Club, I lead initiatives that bridge the gap between theoretical machine
-              learning concepts and practical applications. My work spans across various domains, from developing
-              sophisticated AI models to creating intuitive web applications.
+            I'm an aspiring AI/ML engineer passionate about technology, problem-solving, and building innovative solutions. I've worked on projects in computer vision, data analytics, and web development, including fitness AI and EV market analysis. As the former president of Tensor Club, I led initiatives to grow the AI and tech community. I love exploring the intersection of AI, automation, and real-world applications to create meaningful impact.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <ScrollReveal animation="slide" delay={200} className="hover-card p-6 bg-gray-800/50 rounded-xl">
@@ -63,8 +60,8 @@ const Home = () => {
                 <p className="text-gray-400">Specialized in deep learning, computer vision, and natural language processing</p>
               </ScrollReveal>
               <ScrollReveal animation="slide" delay={400} className="hover-card p-6 bg-gray-800/50 rounded-xl">
-                <h3 className="text-xl font-bold mb-4 text-cyan-400">Web Development</h3>
-                <p className="text-gray-400">Full stack development with modern frameworks and technologies</p>
+                <h3 className="text-xl font-bold mb-4 text-cyan-400">Data Analysis</h3>
+                <p className="text-gray-400">Turning raw data into meaningful insights to drive informed decisions.</p>
               </ScrollReveal>
               <ScrollReveal animation="slide" delay={600} className="hover-card p-6 bg-gray-800/50 rounded-xl">
                 <h3 className="text-xl font-bold mb-4 text-cyan-400">Leadership</h3>
