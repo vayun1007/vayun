@@ -24,7 +24,7 @@ const Home = () => {
             transition={{ delay: 0.3, duration: 0.8 }}
             className="text-xl md:text-2xl text-cyan-400 mb-8"
           >
-            AI Engineer • Data Analyst • Innovator 
+            AI Engineer • Full Stack Developer • Tensor Club President
           </motion.p>
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -64,11 +64,11 @@ const Home = () => {
               </ScrollReveal>
               <ScrollReveal animation="slide" delay={400} className="hover-card p-6 bg-gray-800/50 rounded-xl">
                 <h3 className="text-xl font-bold mb-4 text-cyan-400">Innovation & Tech</h3>
-                <p className="text-gray-400">Exploring cutting-edge AI concepts, market trends, and real-world problem-solving</p>
+                <p className="text-gray-400">Full stack development with modern frameworks and technologies</p>
               </ScrollReveal>
               <ScrollReveal animation="slide" delay={600} className="hover-card p-6 bg-gray-800/50 rounded-xl">
                 <h3 className="text-xl font-bold mb-4 text-cyan-400">Leadership</h3>
-                <p className="text-gray-400">Led a thriving AI/ML community, organized events, and mentored aspiring engineers</p>
+                <p className="text-gray-400">Leading Tensor Club initiatives and fostering tech community growth</p>
               </ScrollReveal>
             </div>
           </ScrollReveal>

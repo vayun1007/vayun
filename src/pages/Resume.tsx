@@ -37,7 +37,7 @@ const Resume = () => {
             <div className="space-y-4">
               <div>
                 <h3 className="text-xl font-semibold text-white">B.E , Artificial Intelligence and Machine Learning</h3>
-                <p className="text-gray-400">MVJ College of Engineering • 2021 - 2025</p>
+                <p className="text-gray-400">MVJ College of  • 2020 - 2024</p>
                 <p className="text-gray-300 mt-2">Specialization in Artificial Intelligence and Machine Learning</p>
               </div>
             </div>
@@ -56,19 +56,24 @@ const Resume = () => {
             </div>
             <div className="space-y-6">
               <div>
-                <h3 className="text-xl font-semibold text-white">PRESIDENT OF TENSOR CLUB</h3>
+                <h3 className="text-xl font-semibold text-white">AI Research Intern</h3>
                 <p className="text-gray-400">Tech Innovation Labs • Summer 2023</p>
                 <ul className="list-disc list-inside text-gray-300 mt-2 space-y-2">
-                  <li>• Led organization of technical events, hackathons, and workshops, engaging
-500+ students .
-</li>
-                  <li>Implemented weekly AI-themed content strategy, boosting member
-                  knowledge and discussions</li>
-                  <li>Coordinated with faculty advisors to align club activities with curriculum
-                  objectives</li>
+                  <li>Developed and implemented novel deep learning architectures</li>
+                  <li>Collaborated with senior researchers on computer vision projects</li>
+                  <li>Published research paper at leading AI conference</li>
                 </ul>
               </div>
-              
+              <div>
+                <h3 className="text-xl font-semibold text-white">Full Stack Developer</h3>
+                <p className="text-gray-400">Web Solutions Inc. • 2022 - Present</p>
+                <ul className="list-disc list-inside text-gray-300 mt-2 space-y-2">
+                  <li>Built and maintained large-scale web applications</li>
+                  <li>Implemented AI-powered features using TensorFlow.js</li>
+                  <li>Led team of junior developers on key projects</li>
+                </ul>
+              </div>
+            </div>
           </motion.section>
 
           {/* Skills Section */}
@@ -86,7 +91,7 @@ const Resume = () => {
               <div>
                 <h3 className="text-xl font-semibold text-white mb-3">Programming</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Python', 'Machine Learning', 'HTML', 'SQL', 'CSS'].map((skill) => (
+                  {['Python', 'JavaScript', 'TypeScript', 'C++', 'Java'].map((skill) => (
                     <span key={skill} className="px-3 py-1 bg-gray-700/50 rounded-full text-cyan-300">
                       {skill}
                     </span>
@@ -96,7 +101,7 @@ const Resume = () => {
               <div>
                 <h3 className="text-xl font-semibold text-white mb-3">Frameworks & Tools</h3>
                 <div className="flex flex-wrap gap-2">
-                  {['Jupyter', 'Git', 'TensorFlow', 'PyTorch', 'PowerBI'].map((skill) => (
+                  {['React', 'Node.js', 'TensorFlow', 'PyTorch', 'Docker'].map((skill) => (
                     <span key={skill} className="px-3 py-1 bg-gray-700/50 rounded-full text-cyan-300">
                       {skill}
                     </span>

@@ -31,7 +31,7 @@ const projects: Project[] = [
     description: "Developed predictive models using ARIMA and LSTM to forecast stock prices with improved accuracy. Built an LSTM neural network for 30-day predictions, visualized with key highlights for better insights.",
     category: "Web",
     image: "https://images.unsplash.com/photo-1664575198308-3959904fa430?auto=format&fit=crop&q=80&w=800",
-    technologies: ["Python", "AI", "Data Analysis"]
+    technologies: ["Python", "AI", "Data", "AWS"]
   }
 ];
 
